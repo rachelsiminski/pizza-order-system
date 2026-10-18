@@ -1,0 +1,4 @@
+1. Line 89: double tax;
+    Error: java: variable tax might not have been initialized
+    Fix: initialize tax variable, set to 0
+

@@ -86,7 +86,7 @@ public class PizzaOrderSystem {
     public static double calculateTax(double taxableAmount) {
         
         double TAX_RATE = 0.0825;  // 8.25% tax
-        double tax;
+        double tax = 0;  // FIXED: tax variable not initialized
         if (taxableAmount > 0) {
             tax = taxableAmount * TAX_RATE;
         }
